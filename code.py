@@ -294,7 +294,7 @@ step2 = DecisionTreeRegressor(max_depth=8)
 pipe = Pipeline([
     ('step1',step1),
     ('step2',step2)
-])
+]) 
 
 pipe.fit(x_train,y_train)
 
